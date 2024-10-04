@@ -11,25 +11,7 @@
 /* ============= Section-4(Portfolio)============= */
 
 /* ============= FOOTER ============= */
-.site-footer {
-  padding: 100px 0;
-}
-.footer-container {
-  align-items: baseline;
-}
-.footer-logo-container {
-  margin-right: 120px;
-}
-.footer-logo {
-  display: inline-block;
-}
 
-.footer-text {
-  max-width: 264px;
-}
-.footer-block-name {
-  margin-bottom: 16px;
-}
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: #31d0aa;
@@ -43,8 +25,6 @@
 }
 
 .footer-email {
-  width: 264px;
-
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-email:focus {
