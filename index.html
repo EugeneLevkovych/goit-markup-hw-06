@@ -53,7 +53,7 @@
         </button>
       </div>
       <!-- =========== Mobile Menu =========== -->
-      <div class="mobile-menu">
+      <div class="mobile-menu is-open">
         <div class="container mobile-menu-container">
           <button class="mobile-menu-close">
             <svg class="mobile-menu-close-icon" width="8" height="8">
@@ -65,29 +65,62 @@
               <li class="mobile-menu-nav-item">
                 <a class="mobile-menu-nav-link" href="">studio</a>
               </li>
-              <li class="mobile-menu-nav-item"></li>
+              <li class="mobile-menu-nav-item">
                 <a class="mobile-menu-nav-link" href="">portfolio</a>
               </li>
-              <li class="mobile-menu-nav-item"></li>
+              <li class="mobile-menu-nav-item">
                 <a class="mobile-menu-nav-link" href="">contacts</a>
               </li>
             </ul>
           </nav>
-          <address>
-            <ul class="mobile-menu-address-list"></ul>
-            <li class="mobile-menu-address-item">
-              <a class="mobile-menu-address-link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="mobile-menu-address-item">
-              <a class="mobile-menu-address-link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
+          <address class="mobile-menu-address">
+            <ul class="mobile-menu-address-list">
+              <li class="mobile-menu-address-item">
+                <a
+                  class="mobile-menu-address-link"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="mobile-menu-address-item">
+                <a class="mobile-menu-address-link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
           </address>
-          <div>Sotial link</div>
+          <div class="mobile-menu-social-media">
+            <ul class="mobile-menu-social-menu">
+              <li class="social-list-item">
+                <a class="team-social-link" href="">
+                  <svg class="team-social-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-instagram-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list-item">
+                <a class="team-social-link" href="">
+                  <svg class="team-social-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list-item">
+                <a class="team-social-link" href="">
+                  <svg class="team-social-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list-item">
+                <a class="team-social-link" href="">
+                  <svg class="team-social-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </header>
@@ -347,9 +380,7 @@
               </div>
 
               <div class="portfolio-text-container">
-                <h3 class="portfolio-text-heading">
-                  Banking App
-                </h3>
+                <h3 class="portfolio-text-heading">Banking App</h3>
                 <p class="paragraph-text">App</p>
               </div>
             </li>
@@ -368,9 +399,7 @@
                 </p>
               </div>
               <div class="portfolio-text-container">
-                <h3 class="portfolio-text-heading">
-                  Cashless Payment
-                </h3>
+                <h3 class="portfolio-text-heading">Cashless Payment</h3>
                 <p class="paragraph-text">Marketing</p>
               </div>
             </li>
@@ -388,9 +417,7 @@
                 </p>
               </div>
               <div class="portfolio-text-container">
-                <h3 class="portfolio-text-heading">
-                  Meditation App
-                </h3>
+                <h3 class="portfolio-text-heading">Meditation App</h3>
                 <p class="paragraph-text">App</p>
               </div>
             </li>
@@ -404,9 +431,7 @@
                 </p>
               </div>
               <div class="portfolio-text-container">
-                <h3 class="portfolio-text-heading">
-                  Taxi Service
-                </h3>
+                <h3 class="portfolio-text-heading">Taxi Service</h3>
                 <p class="paragraph-text">Marketing</p>
               </div>
             </li>
@@ -425,9 +450,7 @@
                 </p>
               </div>
               <div class="portfolio-text-container">
-                <h3 class="portfolio-text-heading">
-                  Screen Illustrations
-                </h3>
+                <h3 class="portfolio-text-heading">Screen Illustrations</h3>
                 <p class="paragraph-text">Design</p>
               </div>
             </li>
@@ -446,9 +469,7 @@
                 </p>
               </div>
               <div class="portfolio-text-container">
-                <h3 class="portfolio-text-heading">
-                  Online Courses
-                </h3>
+                <h3 class="portfolio-text-heading">Online Courses</h3>
                 <p class="paragraph-text">Marketing</p>
               </div>
             </li>
@@ -523,7 +544,7 @@
       </div>
     </footer>
     <!-- ============= MODAL =============  -->
-    <div class="backdrop hidden">
+    <div class="backdrop">
       <div class="modal">
         <button class="close-button" type="button">
           <svg class="close-svg" width="8" height="8">
@@ -591,10 +612,12 @@
                 <svg class="custom-checkbox-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg> </span
-              >I accept the terms and conditions of the<a
-                class="checkbox-link"
-                href=""
-                >Privacy Policy</a
+              ><span
+                >I accept the terms and conditions of the<a
+                  class="checkbox-link"
+                  href=""
+                  >Privacy Policy</a
+                ></span
               >
             </label>
           </div>
