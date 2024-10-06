@@ -271,6 +271,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #434455;
+  font-style: normal;
 }
 .mobile-menu-social-media {
   width: 280px;
@@ -502,7 +503,7 @@ button {
   flex-wrap: wrap;
   row-gap: 72px;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .team-list-item {
   background-color: #ffffff;
@@ -555,6 +556,8 @@ button {
 }
 @media screen and (min-width: 768px) {
   .team-list {
+    width: 552px;
+    margin: 0 auto;
     gap: 24px;
   }
   .team-list-item {
@@ -565,7 +568,9 @@ button {
   .team-section {
     padding: 120px 0;
   }
-
+  .team-list {
+    width: 1128px;
+  }
   .team-list-item {
     width: calc((100% - 72px) / 4);
   }
@@ -667,7 +672,7 @@ button {
 }
 /* ============= FOOTER ============= */
 .site-footer {
-  max-width: 320px;
+  /* max-width: 320px; */
   min-height: 664px;
   margin-left: auto;
   margin-right: auto;
@@ -771,7 +776,6 @@ button {
 }
 @media screen and (min-width: 768px) {
   .site-footer {
-    max-width: 768px;
     min-height: 456px;
   }
   .footer-container {
@@ -802,7 +806,6 @@ button {
 }
 @media screen and (min-width: 1158px) {
   .site-footer {
-    max-width: 1440px;
     min-height: 312px;
     padding: 100px 0;
   }
