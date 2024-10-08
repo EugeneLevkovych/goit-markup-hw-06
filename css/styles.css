@@ -806,8 +806,7 @@ button {
   .footer-container {
     align-items: baseline;
     flex-wrap: nowrap;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 0 15px;
     gap: 0;
   }
   .footer-logo-container {
